@@ -7,32 +7,45 @@
 header{
     border: 3px solid black;
     display: flex;
-    height: 12vh;
+    height: 15vh;
     width: 100%;
+    /* background: black; */
     justify-content: space-between;
 }
 .logo{
-    margin-left: 25vh;
+    margin-left: 15vh;
     display: flex;
     border: 2px solid green;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 25vh;
+    width: 10%;
+}
+.logo img{
+    width: 100%;
 }
 .headBtns{
-    margin-right: 25vh;
+    margin-right: 15vh;
     display: flex;
     border: 2px solid red;
     justify-content: center;
     align-items: center;
 }
 .headBtns a{
+    text-align: center;
     text-decoration: none;
+    /* color: white; */
     margin-right: 10vh;
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
     padding: 15px;
 }
+
+
+
+
+
+
+
+
 /* BARRA DE NAVEGAÇÃO */
 nav{
     margin-top: 10px;
@@ -49,6 +62,11 @@ nav a{
     padding: 5px;
 
 }
+
+
+
+
+
 /* PRINCIPAL */
 main{
     margin-top: 10px;

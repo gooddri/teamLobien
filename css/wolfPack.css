@@ -72,7 +72,15 @@ main{
     height: 80vh;
     width: 30%;
     text-align: center;
+    background: black;
+    color: blanchedalmond;
 }
+
+.rufus img{
+    width: 100%;
+    height: auto;
+}
+
 .lupus{
     margin-top: 5vh;
     margin-bottom: 5vh;

@@ -1,0 +1,61 @@
+/* CABEÇALHO */
+header{
+    border: 3px solid black;
+    display: flex;
+    height: 12vh;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 25vh;
+    display: flex;
+    border: 2px solid green;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 25vh;
+}
+.headBtns{
+    margin-right: 25vh;
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+}
+.headBtns a{
+    text-decoration: none;
+    margin-right: 10vh;
+    border: 2px dotted black;
+    padding: 15px;
+}
+/* BARRA DE NAVEGAÇÃO */
+nav{
+    margin-top: 10px;
+    border: 3px solid black;
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+
+}
+/* PRINCIPAL */
+.title{
+    margin-top: 10px;
+    border: 2px dotted gray;
+}
+h1{
+    text-align: center;
+}
+main{
+    margin-top: 10px;
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    border: 2px solid rgb(226, 17, 174);
+}

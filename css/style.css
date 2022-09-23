@@ -85,3 +85,21 @@ footer{
     width: 100%;
     height: 10vh;
 }
+/* ======================================================================================================================= */
+/* WOLF PACK */
+
+.rufus{
+    border: 2px solid blue;
+    height: 65vh;
+    width: 30%;
+}
+.lupus{
+    border: 2px solid blue;
+    height: 65vh;
+    width: 30%;
+}
+.simensis{
+    border: 2px solid blue;
+    height: 65vh;
+    width: 30%;
+}

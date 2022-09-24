@@ -44,17 +44,27 @@ header{
     /* border: 2px dotted black; */
     padding: 15px;
 }
-input {
-    width: 300px;
-    height: 5vh;
-    /* border: 4px solid green; */
-    border-radius: 6px;
-    font-size: 15px;
-    background-color: white;
-    text-align: center;
-    border-radius: 25px;
+.divBusca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
 }
-
+#txtBusca{
+    background-color:transparent;
+    padding: 10px 15px;
+    font-size:18px;
+    text-align: center;
+    border:none;
+    height:35px;
+    width:260px;
+}
+::placeholder{
+    color: black;
+}
 /* BARRA DE NAVEGAÇÃO */
 nav{
     /* margin-top: 10px; */

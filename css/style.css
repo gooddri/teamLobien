@@ -40,6 +40,7 @@ header{
 .headBtns a{
     text-align: center;
     color: white;
+    font-weight: bold;
     text-decoration: none;
     /* color: white; */
     margin-right: 3vw;
@@ -52,7 +53,7 @@ header{
     align-items: center;
     background-color:white;
     border:solid 1px;
-    border-radius:15px;
+    border-radius:20px;
     width:300px;
 }
 #txtBusca{
@@ -65,6 +66,7 @@ header{
     width:260px;
 }
 ::placeholder{
+    font-weight: bold;
     color: black;
 }
 /* BARRA DE NAVEGAÇÃO */
@@ -80,6 +82,7 @@ nav{
 nav a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
     /* border: 1px solid black; */
     padding: 5px;
 

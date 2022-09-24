@@ -154,4 +154,11 @@ footer a{
     color: gray;
     padding: 3px;
 }
+.cr{
+    color: gray;
+    text-align: center;
+}
+.cr a{
+    color: blueviolet;
+}
 /* ================================================================================ */

@@ -16,7 +16,7 @@ header{
     justify-content: space-between;
 }
 .logo{
-    margin-left: 15vh;
+    margin-left: 8vw;
     display: flex;
     /* border: 2px solid green; */
     justify-content: center;
@@ -27,7 +27,7 @@ header{
     width: 100%;
 }
 .headBtns{
-    margin-right: 15vh;
+    margin-right: 8vw;
     display: flex;
     /* border: 2px solid red; */
     justify-content: center;
@@ -40,7 +40,7 @@ header{
     color: white;
     text-decoration: none;
     /* color: white; */
-    margin-right: 10vh;
+    margin-right: 3vw;
     /* border: 2px dotted black; */
     padding: 15px;
 }
@@ -99,7 +99,7 @@ main{
     width: 100%;
     border: 2px solid rgb(226, 17, 174);
 }
-.rufus{
+.rufus, .lupus, .simensis{
     margin-top: 5vh;
     margin-bottom: 5vh;
     border: 2px solid blue;
@@ -115,22 +115,6 @@ main{
     height: auto;
 }
 
-.lupus{
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    border: 2px solid blue;
-    height: 80vh;
-    width: 30%;
-    text-align: center;
-}
-.simensis{
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    border: 2px solid blue;
-    height: 80vh;
-    width: 30%;
-    text-align: center;
-}
 /* RODAPÉ */
 footer{
     margin-top: 20px;

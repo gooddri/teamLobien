@@ -70,7 +70,7 @@ header{
 /* BARRA DE NAVEGAÇÃO */
 nav{
     /* margin-top: 10px; */
-    box-shadow: white 0px 0px 0px 2px, white 0px 4px 6px -1px, white 0px 1px 0px inset;
+    box-shadow: 0 0 2px 2px white;
     height: 6vh;
     width: 100%;
     display: flex;

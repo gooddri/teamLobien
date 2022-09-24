@@ -87,7 +87,7 @@ nav a{
 /* PRINCIPAL */
 .title{
     margin-top: 10px;
-    border: 2px dotted gray;
+    /* border: 2px dotted gray; */
 }
 h1{
     text-align: center;
@@ -99,17 +99,18 @@ main{
     justify-content: space-around;
     height: 90vh;
     width: 100%;
-    border: 2px solid rgb(226, 17, 174);
+    /* border: 2px solid rgb(226, 17, 174); */
 }
 .rufus, .lupus, .simensis{
     margin-top: 5vh;
     margin-bottom: 5vh;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    box-shadow: 0 0 10px 5px white;
     height: 80vh;
     width: 30%;
     text-align: center;
     background: black;
-    color: blanchedalmond;
+    color: white;
 }
 
 .rufus img{

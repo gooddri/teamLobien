@@ -86,15 +86,16 @@ nav a{
 }
 /* PRINCIPAL */
 .title{
-    margin-top: 10px;
+    margin-top: 40px;
     /* border: 2px dotted gray; */
 }
 h1{
+    font-size: 35pt;
     text-align: center;
     color: white;
 }
 main{
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     height: 90vh;

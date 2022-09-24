@@ -17,6 +17,7 @@ header{
 }
 .logo{
     margin-left: 8vw;
+    padding-top: 10px;
     display: flex;
     /* border: 2px solid green; */
     justify-content: center;
@@ -24,7 +25,8 @@ header{
     width: 10%;
 }
 .logo img{
-    width: 100%;
+    height: 130px;
+    width: 130px;
 }
 .headBtns{
     margin-right: 8vw;
@@ -117,9 +119,39 @@ main{
 
 /* RODAPÉ */
 footer{
-    margin-top: 20px;
-    border: 2px double black;
+    /* padding: 25px; */
+    /* margin-top: 20px; */
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    /* border: 1px double white; */
     width: 100%;
-    height: 10vh;
+    height: auto;
+}
+.rp1{
+    margin-left: 4vw;
+    display: flex;
+    height: 25vh;
+    flex: 25%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.rp2, .rp3, .rp4{
+    margin-top: 12vh;
+    margin-right: 4vw;
+    height: 15vh;
+    text-align: justify;
+    padding: 20px;
+    /* border: 1px dotted white; */
+    flex: 25%;  
+}
+
+H4{
+    color: blueviolet;
+    padding: 3px;
+}
+footer a{
+    color: gray;
+    padding: 3px;
 }
 /* ================================================================================ */

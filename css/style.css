@@ -29,7 +29,7 @@ header{
     width: 100px;
 }
 .headBtns{
-    margin-right: 8vw;
+    /* margin-right: 8vw; */
     display: flex;
     /* border: 2px solid red; */
     justify-content: center;
@@ -43,7 +43,7 @@ header{
     font-weight: bold;
     text-decoration: none;
     /* color: white; */
-    margin-right: 3vw;
+    /* margin-right: 3vw; */
     /* border: 2px dotted black; */
     padding: 15px;
 }

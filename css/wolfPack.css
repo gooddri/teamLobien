@@ -110,7 +110,7 @@ main{
     margin-bottom: 5vh;
     /* border: 2px solid blue; */
     box-shadow: 0 0 10px 5px white;
-    height: 80vh;
+    height: 120vh;
     width: 30%;
     text-align: center;
     background: black;
@@ -118,6 +118,15 @@ main{
 }
 
 .rufus img{
+    width: 100%;
+    height: auto;
+}
+
+.simensis img{
+    width: 100%;
+    height: auto;
+}
+.lupus img{
     width: 100%;
     height: auto;
 }

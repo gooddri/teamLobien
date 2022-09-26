@@ -12,6 +12,90 @@ body{
     height: auto;
     width: auto;      
 }
+/* CABEÇALHO */
+header{
+    /* border: 3px solid black; */
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background: black;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 8vw;
+    padding-top: 10px;
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+.headBtns{
+    /* margin-right: 8vw; */
+    display: flex;
+    background: black;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.headBtns a{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    /* color: white; */
+    /* margin-right: 3vw; */
+    /* border: 2px dotted black; */
+    padding: 15px;
+}
+.divBusca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border:solid 1px;
+    border-radius:5px;
+    width:300px;
+}
+#txtBusca{
+    background-color:transparent;
+    padding: 10px 15px;
+    font-size:18px;
+    text-align: center;
+    border:none;
+    height:35px;
+    width:260px;
+}
+::placeholder{
+    font-weight: bold;
+    color: black;
+}
+/* BARRA DE NAVEGAÇÃO */
+nav{
+    /* margin-top: 10px; */
+    box-shadow: 0 0 2px 2px white;
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    padding: 5px;
+
+}
+
+/* PRINCIPAL */
 
 #txt1 {
     padding-top: 10px;

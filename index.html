@@ -8,8 +8,8 @@
     <title>LOBIEN</title>
   </head>
   <body>
-    <!-- CABEÇALHO -->
-    <header>
+     <!-- CABEÇALHO -->
+     <header>
       <div class="logo">
         <a href="./index.html" class=""
           ><img src="./img/logo-lobien.png" alt="logo-lobien"
@@ -29,26 +29,63 @@
             alt="Buscar"
           />
         </div>
-        <a href="#" style="margin-left: 3vw">
+        <a href="#">
           <img style="height: 30px" src="./img/cadastro-icon.png" alt="" />
         </a>
         <a href="#">
-          <img style="height: 30px" src="./img/carrinho-icon.png" alt=""
+          <img style="height: 30px; margin-right:8vw;" src="./img/carrinho-icon.png" alt=""
         /></a>
       </div>
     </header>
     <!-- BARRA DE NAVEGAÇÃO -->
     <nav>
       <a href="./wolfPack.html">PRODUTOS</a>
-      <a href="./hardware.html">SOBRE</a>
+      <a href="#">SOBRE</a>
       <a href="#">EQUIPE</a>
       <a href="#">CONTATO</a>
     </nav>
-    <!-- PRINCIPAL -->
-    <main>
-      <div class="gabinete">gabinete</div>
-      <div class="previa">preview</div>
-    </main>
+        <!-- PRINCIPAL -->
+    
+        <section class="container_projeto">
+          <div class="slide_container active">
+            <div class="slide">
+              <div class="content_projeto">
+                <h3>Simensis</h3>
+                <p>Processador Intel Core i5 12600KF 12ª geração
+                  Clock Max: 4.90 Ghz. Cache: 20MB. Cores: 10. Threads: 16</p>
+                  <br/><a href="#" class="bnt_projeto">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="slide_container">
+            <div class="slide">
+              <div class="content_projeto">
+                <h3>Lupus</h3>
+                 <p>Processador Intel Core i9 12900KS 12ª geração
+                  Clock Max: 5.50 Ghz. Cache: 30MB. Cores: 16. Threads: 24</p>
+                  <br/> <a href="#" class="bnt_projeto">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="slide_container">
+            <div class="slide">
+              <div class="content_projeto">
+                <h3>Rufus</h3>
+                <p>Processador Intel Core i9 12900KF 12ª geração
+                  Clock Max: 5.20 Ghz. Cache: 30MB. Cores: 16. Threads: 24</p>
+                  <br/><a href="#" class="bnt_projeto">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+        </div> 
+    
+          <div id="prev" onclick="prev()"><</div>
+          <div id="next" onclick="next()">></div>
+        </section>
+    
+        <script src="./js/script.js"></script>
     <!-- RODAPÉ -->
     <footer>
       <div class="rp1">

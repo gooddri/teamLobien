@@ -95,7 +95,7 @@ nav a{
 h1{
     font-size: 35pt;
     text-align: center;
-    color: white;
+    color: #8E44AD;
 }
 main{
     margin-top: 20px;
@@ -109,7 +109,8 @@ main{
     margin-top: 5vh;
     margin-bottom: 5vh;
     /* border: 2px solid blue; */
-    box-shadow: 0 0 10px 5px white;
+     box-shadow: 0 0 10px 5px #8E44AD;
+    
     height: 120vh;
     width: 30%;
     text-align: center;
@@ -130,10 +131,41 @@ main{
     width: 100%;
     height: auto;
 }
+.rufus{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.simensis{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lupus{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.textsime{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    font-size: 85%;
+}
+
+
+
 
 /* RODAPÉ */
 footer{
-    /* padding: 25px; */
+    padding: 225px;
     /* margin-top: 20px; */
     color: white;
     display: flex;

@@ -10,7 +10,7 @@ body{
 header{
     /* border: 3px solid black; */
     display: flex;
-    height: 10vh;
+    height: 12vh;
     width: 100%;
     /* background: black; */
     justify-content: space-between;
@@ -25,11 +25,11 @@ header{
     width: 10%;
 }
 .logo img{
-    height: 100px;
-    width: 100px;
+    height: 130px;
+    width: 130px;
 }
 .headBtns{
-    margin-right: 8vw;
+    /* margin-right: 8vw; */
     display: flex;
     /* border: 2px solid red; */
     justify-content: center;
@@ -43,9 +43,10 @@ header{
     font-weight: bold;
     text-decoration: none;
     /* color: white; */
-    margin-right: 3vw;
+    /* margin-right: 3vw; */
     /* border: 2px dotted black; */
-    padding: 15px;
+    padding: 10px;
+   
 }
 .divBusca{
     display: flex;
@@ -55,37 +56,45 @@ header{
     border:solid 1px;
     border-radius:5px;
     width:300px;
+   
 }
 #txtBusca{
     background-color:transparent;
     padding: 10px 15px;
-    font-size:18px;
-    text-align: center;
+    font-size:15px;
+    text-align: left;
     border:none;
     height:35px;
     width:260px;
 }
 ::placeholder{
     font-weight: bold;
-    color: black;
+    color: rgba(0, 0, 0, 0.266);
 }
+
 /* BARRA DE NAVEGAÇÃO */
 nav{
     /* margin-top: 10px; */
     box-shadow: 0 0 2px 2px white;
-    height: 6vh;
+    height: 5vh;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+   
 }
 nav a{
     text-decoration: none;
     color: white;
     font-weight: bold;
     /* border: 1px solid black; */
-    padding: 5px;
+    padding: 6px;
+    font-family: "montserrat", sans-serif;
 
+}
+
+nav a:hover{
+    color:#BF25B6;
 }
 /* PRINCIPAL */
 .title{
@@ -252,10 +261,92 @@ main{
 .preçonunber{
     gap: 15px;
 }
+.all{
+    margin-top: 25%;
+}
+/* Hardware */
+#txt1 {
+    padding-top: 10px;
+    color: rgb(57, 181, 185);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Asap', sans-serif;
+    font-weight: 100;
+    font-size: 50pt;
+    font-family: 'Playfair Display', serif;
+}
+
+#txt2 {
+    padding-top: 2px;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Asap', sans-serif;
+    font-size: 25pt;
+    font-family: 'Playfair Display', serif;
+}
+
+.grid {
+    display: block;
+    padding: 15px;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.col {
+    text-align: center;
+    border:solid rgb(37, 34, 37);
+    background-color: black;
+    margin-bottom: 16px;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding: 16px;
+    color: snow;
+    width: 400px;
+    height: 500px;
+    
+}
+
+.col img {
+    width: 300px;
+    height: auto;
+}
+.col p{
+    text-decoration: none;
+}
+
+#txt_auxiliar {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#ssd{
+    margin-left: 2.5em;
+    margin-top: 5em;
+}
+
+h4{
+    color: green;
+}
+
+
+.compre_ja a{
+    text-decoration: none;
+    background-color: rgb(12, 5, 110);
+    color: rgb(236, 236, 236);
+    border-radius: 40%;
+    border: 1px;
+    padding: 6x;
+}
+/* final da parte de harware */
 
 /* RODAPÉ */
 footer{
-    padding: 155px;
+    /* padding: ; */
     /* margin-top: 20px; */
     color: white;
     display: flex;

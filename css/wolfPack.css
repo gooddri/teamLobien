@@ -145,22 +145,16 @@ main{
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
 }
-
-
-
 .simensis{
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
 }
-
 .lupus{
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
 }
-
-
 .textsime{
     padding: 20px;
     display: flex;
@@ -172,8 +166,7 @@ main{
 .lupus, .textsime, .preço1{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;   
 }
 .simensis, .textsime, .preço2{
     display: flex;
@@ -184,8 +177,7 @@ main{
 .rufus, .textsime, .preço3{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;   
 }
 .preço3{
     padding: 53px;
@@ -261,8 +253,12 @@ main{
 .preçonunber{
     gap: 15px;
 }
+
+/* Hardware */
+
 .all{
-    margin-top: 25%;
+    margin-left: 1vw;
+    margin-top: 20%;
 }
 .all a{
     width: 200px;
@@ -277,17 +273,10 @@ main{
     border-radius: 25px;
     margin-top: 50px;
 }
-/* Hardware */
 #txt1 {
-    padding-top: 10px;
-    color: rgb(57, 181, 185);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: 'Asap', sans-serif;
-    font-weight: 100;
-    font-size: 50pt;
-    font-family: 'Playfair Display', serif;
+    font-size: 35pt;
+    text-align: center;
+    color: #BF25B6;
 }
 
 #txt2 {
@@ -303,7 +292,8 @@ main{
 
 .grid {
     display: block;
-    padding: 15px;
+    width: 100%;
+    padding: 10px;
     display: grid;
     grid-gap: 16px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -312,11 +302,11 @@ main{
 
 .col {
     text-align: center;
-    border:solid rgb(37, 34, 37);
+    border:solid white;
     background-color: black;
     margin-bottom: 16px;
     margin-top: 100px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     padding: 16px;
     color: snow;
     width: 400px;

@@ -238,7 +238,7 @@ main{
     justify-content: center;
     height: 50px;
     color: aliceblue;
-    background-color: darkgreen;
+    background-color:coral;
     text-align:start;
     padding: 15px;
     font-size: larger;
@@ -263,6 +263,19 @@ main{
 }
 .all{
     margin-top: 25%;
+}
+.all a{
+    width: 200px;
+    justify-content: center;
+    height: 50px;
+    color: aliceblue;
+    background-color: darkgreen;
+    text-align:start;
+    padding: 15px;
+    font-size: larger;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 50px;
 }
 /* Hardware */
 #txt1 {
@@ -335,12 +348,18 @@ h4{
 
 
 .compre_ja a{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    height: 50px;
+    color: aliceblue;
+    background-color: darkgreen;
+    text-align:start;
+    padding: 15px;
+    font-size: larger;
     text-decoration: none;
-    background-color: rgb(12, 5, 110);
-    color: rgb(236, 236, 236);
-    border-radius: 40%;
-    border: 1px;
-    padding: 6x;
+    gap: 100px;
+    border-radius: 25px;
 }
 /* final da parte de harware */
 
@@ -374,6 +393,7 @@ footer{
 }
 
 H4{
+    margin-bottom: 5%;
     color: #72386a;
     padding: 3px;
 }

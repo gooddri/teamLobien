@@ -81,7 +81,21 @@ h4{
     color: green;
 }
 
-
+.a{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    height: 50px;
+    color: aliceblue;
+    background-color: darkgreen;
+    text-align:start;
+    padding: 15px;
+    font-size: larger;
+    text-decoration: none;
+    gap: 100px;
+    border-radius: 25px;
+}
+/* 
 a{
     text-decoration: none;
     background-color: rgb(12, 5, 110);
@@ -89,5 +103,5 @@ a{
     border-radius: 40%;
     border: 1px;
     padding: 6x;
-}
+} */
 /* final da parte de harware */

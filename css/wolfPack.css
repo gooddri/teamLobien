@@ -95,7 +95,7 @@ nav a{
 h1{
     font-size: 35pt;
     text-align: center;
-    color: #8E44AD;
+    color: #BF25B6;
 }
 main{
     margin-top: 20px;
@@ -151,6 +151,7 @@ main{
     font-family: 'Poppins', sans-serif;
 }
 
+
 .textsime{
     padding: 20px;
     display: flex;
@@ -159,13 +160,102 @@ main{
     text-align: center;
     font-size: 85%;
 }
+.lupus, .textsime, .preço1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.simensis, .textsime, .preço2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.rufus, .textsime, .preço3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.preço3{
+    padding: 53px;
+    gap: 15px;
+    font-size: larger;
+}
+.preço2{
+    padding: 58px;
+    font-size: larger;
+    gap: 15px;
+}
+.preço1{
+    padding: 50px;
+    font-size: larger;
+    gap: 15px;
+}
+/* botão-comprar */
+.preço1 a{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    height: 50px;
+    color: aliceblue;
+    background-color: darkgreen;
+    text-align:start;
+    padding: 15px;
+    font-size: larger;
+    text-decoration: none;
+    gap: 100px;
+    border-radius: 25px;
+    
+    }
+.preço2 a{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    height: 50px;
+    color: aliceblue;
+    background-color: darkgreen;
+    text-align:start;
+    padding: 15px;
+    font-size: larger;
+    text-decoration: none;
+    gap: 100px;
+    border-radius: 25px;    
+        }
+.preço3 a{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    height: 50px;
+    color: aliceblue;
+    background-color: darkgreen;
+    text-align:start;
+    padding: 15px;
+    font-size: larger;
+    text-decoration: none;
+    gap: 100px;
+    border-radius: 25px;       
+            }
 
+/*preço */
+.preço-mais{
+    color: red;
+    font-size: 16px;
 
-
+}
+.preço-menos{
+    color: limegreen;
+    font-size: 25px;
+    
+}
+.preçonunber{
+    gap: 15px;
+}
 
 /* RODAPÉ */
 footer{
-    padding: 225px;
+    padding: 155px;
     /* margin-top: 20px; */
     color: white;
     display: flex;

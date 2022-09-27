@@ -163,39 +163,39 @@ main{
     text-align: center;
     font-size: 85%;
 }
-.lupus, .textsime, .preço1{
+.lupus, .textsime, .preco1{
     display: flex;
     flex-direction: column;
     align-items: center;   
 }
-.simensis, .textsime, .preço2{
+.simensis, .textsime, .preco2{
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
-.rufus, .textsime, .preço3{
+.rufus, .textsime, .preco3{
     display: flex;
     flex-direction: column;
     align-items: center;   
 }
-.preço3{
+.preco3{
     padding: 53px;
     gap: 15px;
     font-size: larger;
 }
-.preço2{
+.preco2{
     padding: 58px;
     font-size: larger;
     gap: 15px;
 }
-.preço1{
+.preco1{
     padding: 50px;
     font-size: larger;
     gap: 15px;
 }
 /* botão-comprar */
-.preço1 a{
+.preco1 a{
     display: flex;
     width: 200px;
     justify-content: center;
@@ -210,7 +210,7 @@ main{
     border-radius: 25px;
     
     }
-.preço2 a{
+.preco2 a{
     display: flex;
     width: 200px;
     justify-content: center;
@@ -224,13 +224,13 @@ main{
     gap: 100px;
     border-radius: 25px;    
         }
-.preço3 a{
+.preco3 a{
     display: flex;
     width: 200px;
     justify-content: center;
     height: 50px;
     color: aliceblue;
-    background-color:coral;
+    background-color:darkgreen;
     text-align:start;
     padding: 15px;
     font-size: larger;
@@ -240,45 +240,30 @@ main{
             }
 
 /*preço */
-.preço-mais{
+.preco-mais{
     color: red;
     font-size: 16px;
 
 }
-.preço-menos{
+.preco-menos{
     color: limegreen;
     font-size: 25px;
     
 }
-.preçonunber{
+.preconunber{
     gap: 15px;
 }
 
 /* Hardware */
-
 .all{
     margin-left: 1vw;
     margin-top: 20%;
-}
-.all a{
-    width: 200px;
-    justify-content: center;
-    height: 50px;
-    color: aliceblue;
-    background-color: darkgreen;
-    text-align:start;
-    padding: 15px;
-    font-size: larger;
-    text-decoration: none;
-    border-radius: 25px;
-    margin-top: 50px;
 }
 #txt1 {
     font-size: 35pt;
     text-align: center;
     color: #BF25B6;
 }
-
 #txt2 {
     padding-top: 2px;
     color: gray;
@@ -291,7 +276,7 @@ main{
 }
 
 .grid {
-    display: block;
+    display: flex;
     width: 100%;
     padding: 10px;
     display: grid;
@@ -299,37 +284,53 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     
 }
-
 .col {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-end ;
     text-align: center;
-    border:solid white;
-    background-color: black;
-    margin-bottom: 16px;
-    margin-top: 100px;
-    /* margin-left: 50px; */
-    padding: 16px;
-    color: snow;
+    /* box-shadow: white 0px 3px 8px; */
+    margin-top: 30px;
+    border: gray 1px solid;
+    padding: 8%;
+    color: white;
     width: 400px;
-    height: 500px;
-    
+    height: auto;   
 }
-
+.btnH{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col a{
+    width: 130px;
+    height: 50px;
+    color: white;
+    background-color: darkgreen;
+    padding: 15px;
+    font-size: larger;
+    text-decoration: none;
+    border-radius: 25px;
+}
 .col img {
+    text-align: center;
     width: 300px;
     height: auto;
 }
 .col p{
     text-decoration: none;
+    text-align: center;
 }
 
+
 #txt_auxiliar {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     text-align: center;
 }
 
 #ssd{
-    margin-left: 2.5em;
-    margin-top: 5em;
+    margin-bottom: 50px;
 }
 
 h4{

@@ -281,6 +281,8 @@ main{
     flex-direction: column;
     align-items: center;   
 }
+
+/* div-botão */
 .preco3{
     padding: 53px;
     gap: 15px;

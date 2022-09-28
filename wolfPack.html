@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/wolfPack.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>WOLF PACK</title>
   </head>
 
@@ -30,7 +31,7 @@
             alt="Buscar"
           />
         </div>
-        <a href="#">
+        <a href="#" id="login_id">
           <img style="height: 30px" src="./img/cadastro-icon.png" alt="" />
         </a>
         <a href="#">
@@ -48,6 +49,65 @@
       <a href="">EQUIPE</a>
       <a href="./contato.html">CONTATO</a>
     </nav>
+    <!-- LOGIN -->
+    <section class="login">
+      <div class="seta_login"></div>
+      <div class="form_login">
+        <form>
+          <label>Nome de usuário</label>
+          <div>
+            <input
+              class="login_input"
+              type="text"
+              placeholder="Seu nome de usuário"
+              required
+            />
+          </div>
+          <label>Senha</label>
+          <div>
+            <input
+              class="login_input"
+              type="password"
+              placeholder="Sua senha"
+              required
+            />
+          </div>
+          <div>
+            <input type="submit" value="Entrar" />
+          </div>
+
+          <div>
+            <a class="esqueci_senha" href="#">Esqueci minha senha</a>
+          </div>
+
+          <div>
+            <a class="cadastro" href="#"
+              >Não tem uma conta?<strong> Cadastre-se</strong></a
+            >
+          </div>
+        </form>
+      </div>
+    </section>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        var seta = $(".login .seta_login");
+        var formulario = $(".login .form_login");
+        var status = false;
+        $("#login_id").click(function (event) {
+          event.preventDefault();
+          if (status == false) {
+            seta.fadeIn();
+            formulario.fadeIn();
+            status = true;
+          } else {
+            seta.fadeOut();
+            formulario.fadeOut();
+            status = false;
+          }
+        });
+      });
+    </script>
+    <!-- Fechamento do LOGIN -->
     <!-- PRINCIPAL -->
     <div class="title">
       <h1>WOLF PACK</h1>

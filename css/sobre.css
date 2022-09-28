@@ -127,12 +127,12 @@ nav a:hover{
 }
 
 .login form{
-width: 250px;
-margin: 25px auto;
-font-size: 20px;
-font-family:Arial, Helvetica, sans-serif;
-color: rgb(44, 42, 42);
-letter-spacing: -0.05em;
+    width: 250px;
+    margin: 25px auto;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(44, 42, 42);
+    letter-spacing: -0.05em;
 }
 
 .login .esqueci_senha{
@@ -153,16 +153,16 @@ letter-spacing: -0.05em;
 
 .login_input[type="text"],
 .login_input[type="password"]{
-width: 220px;
-height: 30px;
-border:0px;
-outline: none;
-box-shadow: inset 0 0 10px rgb(73, 19, 75);
-border-radius: 5px;
-margin-bottom: 10px;
-margin-top: 5px;
-font-family: sans-serif, Arial;
-font-size: 15px;
+    width: 220px;
+    height: 30px;
+    border:0px;
+    outline: none;
+    box-shadow: inset 0 0 10px rgb(73, 19, 75);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-family: sans-serif, Arial;
+    font-size: 15px;
 }
 
 input[type="submit"]{

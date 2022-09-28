@@ -200,6 +200,8 @@ input[type="submit"]:hover{
     padding-bottom: 70px;
 }
 .container_projeto .slide_container .slide .content_projeto{
+    padding-top: 40px;
+    padding-left: 100px;
     flex: 1 1 350px;
     animation: slide_anima .4s linear .4s backwards;
 }
@@ -211,12 +213,13 @@ input[type="submit"]:hover{
 }
 
 .container_projeto .slide_container .slide .content_projeto h3{
-    font-size: 35px;
+    font-size: 60px;
     color: #fff;
     font-family: 'Noto Sans', sans-serif;
 }
 .container_projeto .slide_container .slide .content_projeto p{
-    font-size: 16px;
+    padding-top: 15px;
+    font-size: 20px;
     color: #fff;
     font-family: 'Noto Sans', sans-serif;
     width: 40%;

@@ -233,7 +233,7 @@ main .sobre .image_2 img{
 /* RODAPÉ */
 footer{
     /* padding: 25px; */
-    margin-top: 500px; 
+    /* margin-top: 500px;  */
     color: white;
     display: flex;
     flex-flow: row nowrap;

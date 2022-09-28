@@ -141,8 +141,10 @@
         <div class="formulario">
             <form action="">
                 <input id="nome" type="text" placeholder="Nome" class="box" required/>
+
                 <input id="email" type="email" placeholder="Email" class="box" required/>
-                <input id="telefone" type="telephone" placeholder="Telefone" class="box" required/>
+
+                <input id="telefone" type="tel" maxlength="11" placeholder="(xx)xxxxx-xxxx" class="box" required/>
 
                 <textarea id="msg" name="" placeholder="Mensagem" cols="30" rows="10" required></textarea>
                 <input type="submit" class="btn" value="Enviar mensagem" onclick="validar()"/>

@@ -9,15 +9,15 @@ body {
   background: black;
 }
 /* CABEÇALHO */
-header {
+header{
   /* border: 3px solid black; */
   display: flex;
-  height: 10vh;
+  height: 12vh;
   width: 100%;
   /* background: black; */
   justify-content: space-between;
 }
-.logo {
+.logo{
   margin-left: 8vw;
   padding-top: 10px;
   display: flex;
@@ -26,19 +26,20 @@ header {
   align-items: center;
   width: 10%;
 }
-.logo img {
-  height: 100px;
-  width: 100px;
+.logo img{
+  height: 130px;
+  width: 130px;
 }
-.headBtns {
+.headBtns{
   /* margin-right: 8vw; */
   display: flex;
   /* border: 2px solid red; */
   justify-content: center;
   align-items: center;
+  
 }
 
-.headBtns a {
+.headBtns a{
   text-align: center;
   color: white;
   font-weight: bold;
@@ -46,49 +47,57 @@ header {
   /* color: white; */
   /* margin-right: 3vw; */
   /* border: 2px dotted black; */
-  padding: 15px;
+  padding: 10px;
+ 
 }
-.divBusca {
+.divBusca{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  border: solid 1px;
-  border-radius: 5px;
-  width: 300px;
+  background-color:white;
+  border:solid 1px;
+  border-radius:5px;
+  width:300px;
+ 
 }
-#txtBusca {
-  background-color: transparent;
+#txtBusca{
+  background-color:transparent;
   padding: 10px 15px;
-  font-size: 18px;
-  text-align: center;
-  border: none;
-  height: 35px;
-  width: 260px;
+  font-size:15px;
+  text-align: left;
+  border:none;
+  height:35px;
+  width:260px;
 }
-::placeholder {
+::placeholder{
   font-weight: bold;
-  color: black;
+  color: rgba(0, 0, 0, 0.266);
 }
 
 /* BARRA DE NAVEGAÇÃO */
-nav {
+nav{
   /* margin-top: 10px; */
   box-shadow: 0 0 2px 2px white;
-  height: 6vh;
+  height: 5vh;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+ 
 }
-nav a {
+nav a{
   text-decoration: none;
   color: white;
   font-weight: bold;
   /* border: 1px solid black; */
-  padding: 5px;
+  padding: 6px;
+  font-family: "montserrat", sans-serif;
+
 }
 
+nav a:hover{
+  color:#BF25B6;
+}
 /* CONTATO */
 
 .contato .cabeçalho {

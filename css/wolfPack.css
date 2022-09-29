@@ -296,6 +296,7 @@ main{
     padding: 50px;
     font-size: larger;
     gap: 15px;
+    
 }
 /* botão-comprar */
 .preco1 a{
@@ -304,9 +305,9 @@ main{
     justify-content: center;
     height: 50px;
     color: aliceblue;
-    background-color: #8a2be2	;
+    background-color: #1047b5	;
     text-align:start;
-    padding: 15px;
+    padding: 10px;
     font-size: larger;
     text-decoration: none;
     gap: 100px;
@@ -319,9 +320,9 @@ main{
     justify-content: center;
     height: 50px;
     color: aliceblue;
-    background-color: #8a2be2	;
+    background-color: #1047b5	;
     text-align:start;
-    padding: 15px;
+    padding: 10px;
     font-size: larger;
     text-decoration: none;
     gap: 100px;
@@ -333,9 +334,9 @@ main{
     justify-content: center;
     height: 50px;
     color: aliceblue;
-    background-color:#8a2be2	;
+    background-color:#1047b5	;
     text-align:start;
-    padding: 15px;
+    padding: 10px;
     font-size: larger;
     text-decoration: none;
     gap: 100px;
@@ -373,6 +374,7 @@ main{
     width: 100%;
     padding: 10px;
     display: grid;
+    justify-items: center;
     grid-gap: 16px;
     grid-template-columns: 1fr 1fr 1fr;
     
@@ -400,7 +402,7 @@ main{
     width: 130px;
     height: 50px;
     color: white;
-    background-color: #8a2be2;
+    background-color: #1047b5;
     padding: 15px;
     font-size: larger;
     text-decoration: none;
@@ -408,7 +410,7 @@ main{
 }
 .col img {
     text-align: center;
-    width: 300px;
+    width: 100%;
     height: auto;
 }
 .col p{
@@ -429,22 +431,10 @@ main{
 h4{
     color: green;
 }
-
-
-.compre_ja a{
-    display: flex;
-    width: 200px;
-    justify-content: center;
-    height: 50px;
-    color: aliceblue;
-    background-color: darkgreen;
-    text-align:start;
-    padding: 15px;
-    font-size: larger;
-    text-decoration: none;
-    gap: 100px;
-    border-radius: 25px;
+.add-cart{
+    font-size: 500px;
 }
+
 /* final da parte de harware */
 
 /* RODAPÉ */
@@ -476,10 +466,11 @@ footer{
     flex: 25%;  
 }
 
-H4{
+footer H4{
     margin-bottom: 5%;
     color: #72386a;
     padding: 3px;
+    padding-top: 15px;
 }
 footer a{
     color: white;

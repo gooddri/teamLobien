@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 body{
-    background: white;
+    background: black;
 }
 /* CABEÇALHO */
 header{
@@ -192,6 +192,9 @@ input[type="submit"]:hover{
     justify-content: space-around;
     margin: 0 auto;
     margin-top: 50px;
+}
+.products-container h5{
+    color: white;
 }
 .product-header{
    width: 100%;

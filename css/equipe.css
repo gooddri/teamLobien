@@ -189,6 +189,7 @@ input[type="submit"]:hover{
 /* EQUIPE */
 .title h1{
     padding-top: 50px;
+    gap: 20px;
     color: #535353;
     display: flex;
     flex-direction: row;
@@ -197,7 +198,7 @@ input[type="submit"]:hover{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .title h1 span{
-    color: blueviolet;
+    color: #9c09a1;
 }
 .container{
     position: relative;
@@ -205,7 +206,7 @@ input[type="submit"]:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin:40px 0;
 }
 
@@ -217,7 +218,7 @@ input[type="submit"]:hover{
     box-shadow: 0 15px 35px rgba(0,0,0,0.2);
     margin:20px;
     border-radius: 12px;
-    border:1px solid rgba(255,255,255,0.1);
+    border:1px solid rgba(189, 4, 189, 0.1);
     display: flex;
     justify-content:center;
     align-items: center;
@@ -287,7 +288,7 @@ line-height: 1.1em;
     height: 150px;
     border-radius: 50%;
     overflow:hidden;
-    border:10px solid rgb(0, 0, 0, 0.25);
+    /* border:10px solid rgb(0, 0, 0, 0.25); */
 }
 
 .container .card .content .image img{

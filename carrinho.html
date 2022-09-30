@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/wolfPack.css" />
+    <link rel="stylesheet" href="./css/carrinho.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- <script src="./carrinho.html"></script> -->
-    <title>WOLF PACK</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <title>CARRINHO DE COMPRAS</title>
   </head>
 
   <body>
@@ -37,11 +38,11 @@
         </a>
         <div class="cart">
           <a href="./carrinho.html">
-            <span>0</span>
+            <span name="basket">0</span>
             <img
               style="height: 30px; margin-right: 8vw"
               src="./img/carrinho-icon.png"
-              alt=""
+              alt=""  
           /></a>
         </div>
       </div>
@@ -115,15 +116,17 @@
     <!-- Fechamento do LOGIN -->
     <!-- PRINCIPAL -->
     <!-- PRINCIPAL -->
-    <div class="products-container">
-        <div class="product-header">
+    <div class="container-products">
+      <div class="product-header">
           <h5 class="product-title">PRODUTO</h5>
-          <h5 class="price">PRICE</h5>
-          <h5 class="quantidade">QUANTIDADE</h5>
+          <h5 class="price sm-hide">PREÇO</h5>
+          <h5 class="quantity">QUANTIDADE</h5>
           <h5 class="total">TOTAL</h5>
-        </div>
-        <div class="product"></div>
       </div>
+      <div class="products">
+
+      </div>
+  </div>
     <!-- RODAPÉ -->
     <footer>
       <div class="rp1">
@@ -159,13 +162,7 @@
     </div>
     <br />
     <script src="./js/wolfPack.js"></script>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
   </body>
 </html>

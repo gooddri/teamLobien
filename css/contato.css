@@ -103,24 +103,12 @@ nav a:hover{
 }
 /* LOGIN */
 
-.login .seta_login{
-  width: 0;
-  height: 0;
-  position: absolute;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 20px solid rgb(232, 230, 233);
-  left: 1365px;
-    top: 70px;
-  display: none;
-  z-index: 1;
-}
 .login .form_login{
   position: absolute;
   width: 300px;
   height: auto;
   background:  rgb(232, 230, 233);
-  left: 1307px;
+  left: 1700px;
   top: 84px;
   border-radius: 2px;
   border-bottom: 5px solid rgb(92, 90, 90);

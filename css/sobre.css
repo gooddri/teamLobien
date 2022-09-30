@@ -195,7 +195,7 @@ main .sobre .sobre_nos{
 }
 
 main .sobre .sobre_nos .texto{
-    margin: 150px;  
+    margin: 50px;  
 }
 main .sobre .sobre_nos h2{
     padding-bottom: 30px;
@@ -215,7 +215,7 @@ main .sobre .sobre_nos p{
 
 main .sobre .image_2 img{
     margin-top: 50px;
-    width: 900px;
+    width: 700px;
     border: 20px;
     border-radius: 15px;
 

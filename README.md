@@ -17,4 +17,4 @@ O nosso primeiro projeto que consiste em colocarmos em prática elaborando um si
 - @pedro2256
 - @C4m0mila
  
-📌 Link do projeto no github Pages: gooddri.github.io/teamLobien/index.html
+📌 Link do projeto no github Pages: https://gooddri.github.io/teamLobien/index.html
